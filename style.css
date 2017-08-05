@@ -1,0 +1,61 @@
+
+/************
+MAIN LAYOUT
+************/
+html {
+  font-size: 10px;
+  background: url(http://i.imgur.com/b9r5sEL.jpg);
+  background-size: cover;
+}
+
+p{
+    margin: 0;
+}
+
+
+/************
+KEYS LAYOUT
+************/
+
+
+
+
+.keys{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.key{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px black solid;
+    background: rgba(0, 0, 0, 0.4);
+    transition: all 0.07s;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
+.letter{
+    font-weight: 700;
+    color: white;
+    font-size: 3em;
+    opacity: 1;
+}
+
+.drum{
+    font-weight: 300;
+    color: orange;
+    font-size: 1.25em;
+    opacity: 1;
+}
